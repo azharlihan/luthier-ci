@@ -246,7 +246,7 @@ class RouteBuilder
             'store'   => ['/',          ['POST']],
             'show'    => ['/{id}',      ['GET']],
             'edit'    => ['/{id}/edit', ['GET']],
-            'update'  => ['/{id}',      ['PUT', 'PATCH']],
+            'update'  => ['/{id}',      ['POST']],
             'destroy' => ['/{id}',      ['DELETE']]
         ];
 
